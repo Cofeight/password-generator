@@ -1,0 +1,8 @@
+#username {
+    border:none;
+    border-bottom: 1px solid black;
+}
+
+#username:focus {
+    outline:none;
+}

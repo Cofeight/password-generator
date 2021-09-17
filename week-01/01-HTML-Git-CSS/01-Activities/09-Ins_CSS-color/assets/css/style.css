@@ -1,12 +1,13 @@
 .section {
   /*Sets the height and width of the section */
   width: 200px;
-  height: 200px
+  height: 200px;
+  background-color: cornflowerblue
 }
 
 .box-blue {
   /* Sets font color */
-  color: white;
+  color: salmon;
   /* Sets background color */
   background-color: #0000ff;
 }

@@ -2,13 +2,19 @@ section {
   width: 600px;
   height: 600px;
   text-align: center;
+  margin: auto;
   border: 15px solid black;
+  background-color:
 }
 
 img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
+  padding: 15px;
+  border: 10px solid darkblue;
+  margin: 20px;
+}
   /* TODO: Add a margin property */
   /* TODO: Add a padding property */
   /* TODO: Add a border property */

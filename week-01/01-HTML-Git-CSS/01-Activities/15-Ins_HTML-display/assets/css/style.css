@@ -39,6 +39,7 @@ section {
 /* Sets display of all elements with class selector to block */
 .display-block {
   display: block;
+  margin:0 auto;
 }
 
 /* Sets display of all elements with class selector to inline */

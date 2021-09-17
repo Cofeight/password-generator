@@ -17,12 +17,14 @@ li {
   /* TODO: Add your code here */
   list-style-type: none;
   font-size: 40px;
+  display: inline;
 }
 
 /* Boxes */
 img {
   /* TODO: Add your code here */
   margin: 0 auto;
+  display: block;
 }
 
 #item-1 {
@@ -40,5 +42,4 @@ img {
 /* Box 3 */
 #image-3 {
   /* TODO: Add your code here */
-  display: none;
 }
