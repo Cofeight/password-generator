@@ -1,3 +1,9 @@
+:root {
+  --light: #fff;
+  --dark: #13293d;
+  --fifpx: 50px;
+}
+
 body {
   font-size: 16px;
   display: flex;
@@ -19,8 +25,8 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--dark);
+  color: var(--light);
 }
 
 nav {
@@ -29,14 +35,14 @@ nav {
 }
 
 nav a {
-  color: #13293d;
+  color: var(--dark);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: var(--light);
 }
 
 main {
@@ -49,15 +55,15 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--dark);
+  color: var(--light);
   margin-top: auto;
 }
 
 .products {
   flex: 1;
-  background-color: #fff;
-  padding: 50px;
+  background-color: var(--light);
+  padding: var(--fifpx);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -66,7 +72,7 @@ footer {
 .card {
   border-style: solid;
   border-width: 1px;
-  border-radius: 50px;
+  border-radius: var(--fifpx);
   padding: 10px;
   flex: 0 0 300px;
   transform: rotate(8deg);
@@ -75,7 +81,7 @@ footer {
 }
 
 .card > header {
-  border-radius: 50px 50px 0px 0px;
+  border-radius: var(--fifpx) var(--fifpx) 0px 0px;
   padding: 20px;
 }
 

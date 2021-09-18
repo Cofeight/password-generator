@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.3;
+  background: linear-gradient(120deg, 0%salmon, 50%salmon  50% chartreuse 100% chartreuse)
 }
 
 header {

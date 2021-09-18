@@ -1,0 +1,70 @@
+:root {
+
+}
+
+/*defines the background components*/
+body {
+    background-color: mediumslateblue;
+}
+
+/*defines use of flex properties on main components*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: wrap;
+}
+
+
+.header {
+    text-align:center;
+}
+
+
+
+/*defines use of select all function on the card class*/
+.card {
+    flex: 1 0 0;
+    margin: 20px;
+    min-width: 30%;
+    padding: 0px 0px 10px 0px;
+    border-style: ridge;
+    border-radius: 8px;
+    color: white;
+}
+
+/*defines use of the pseudoclass hover on the card class*/
+.card:hover {
+    margin-top: 0px;
+    color: purple;
+    transition: 2s;
+}
+
+/*defines properties of the header card*/
+.header-card {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    padding: 1%;
+    border-style:dotted;
+    border-radius: 10px;
+}
+
+/*defines use of select all function on the paragraph-card class*/
+.paragraph-card {
+    user-select: all;
+    background: linear-gradient(purple, white)
+}
+
+/*defines use of 2x3 grid parameters*/
+@media screen and (max-width: 992px) {
+    .card{
+        min-width: 50%;
+    }
+}
+
+/*defines use of 1x6 grid parameters*/
+@media screen and (max-width: 768px) {
+    .card{
+        min-width: 100%;
+    }
+}
