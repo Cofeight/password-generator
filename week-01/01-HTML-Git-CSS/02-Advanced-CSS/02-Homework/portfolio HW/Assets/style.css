@@ -1,0 +1,200 @@
+:root {
+    --dark-grey: #31343d;
+    --green-blue: #8bd0d1;
+    --section-line: 6px solid var(--dark-grey)
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*this defines the body variables*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 236, 236);
+    line-height: normal;
+    width: 100%;    
+}
+
+/*this defines the header variables*/
+header {
+    height: 100px;
+    background: var(--dark-grey);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*this defines the header h1 variables*/
+header h1 {
+    color: var(--dark-grey);
+    font-size: 22px;
+    width: auto;
+    height: auto;
+    background: var(--green-blue);
+    text-align: start;
+    padding-bottom: -100px;
+}
+
+/*this defines the header ul variables*/
+header ul {
+    display: flex;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+/*this defines the header li variables*/
+header li {
+    margin-left: 15px;
+    margin-right: 15px;
+    color:var(--green-blue);
+    font-size: 24px;
+    border-bottom: 3px solid var(--green-blue);
+    font-weight: 100;
+    font-size: large;
+}
+
+/*this defines the header link variables*/
+a:link, a:visited, a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: var(--green-blue);
+}
+
+/*this defines the banner id variables*/
+#banner {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/93/Diamond_Head_Hawaii_From_Round_Top_Rd.JPG");
+    background-size:     cover;                
+    background-repeat:   no-repeat;
+    background-position: center;
+    height: 200px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+/*this defines the banner-text id variables*/
+#banner-text {
+    color: var(--dark-grey);
+    font-size: 20px;
+    width: 220px;
+    height: 40px;
+    background: var(--green-blue);
+    text-align: left;
+    margin: 120px 40px;
+    padding: 10px;
+}
+
+/*this defines the about-me variables*/
+#about-me {
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    position:relative;
+    flex-basis: 20%;
+}
+
+/*this defines the h3 variables*/
+section h3 {
+    font-size: 28px;
+    color: var(--dark-grey);
+    text-align: right;
+    margin-left: 10%;
+    padding-right: 20px;
+    flex: 0 0 10%;
+}
+
+/*this defines the about-me p id variables*/
+#about-me p {
+    padding-left: 20px;
+    line-height: 2;
+    border-left: 6px solid var(--dark-grey);
+    height:100%;
+    flex: 0 0 70%
+}
+
+/*this defines the work id variables*/
+#work {
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    position:relative;
+    flex-basis: 20%;
+}
+
+/*this defines the work-right element id variables, including space between elements*/
+#work-right element {
+    border: 3px solid var(--green-blue);
+    padding: 0px;
+    margin: 10px;
+}
+
+/*this defines the work right id variables*/
+#work-right {
+    border-left: 6px solid var(--dark-grey);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+/*this defines the work1 id variables*/
+#work1 {
+    width:81.5%;
+    height:300px;
+    position:relative;
+    background: #31343d;
+}
+
+.work2 {
+    width: 40%;
+    height: 200px;
+    position:relative;
+    background: #31343d;
+}
+
+section img:hover {
+    opacity: 1;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+section h4 {
+    top: -90px;
+    margin:0px;
+    position: relative;
+    background: var(--green-blue);
+    height: 80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact {
+    display:flex;
+    margin-bottom: 150px;
+}
+
+#contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-left: 6px solid var(--dark-grey);
+    padding-left: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#contact p {
+    border-bottom: 3px solid var(--dark-grey);
+    color: var(--dark-grey);
+    margin-top:20px;
+    margin-right:30px;
+}
