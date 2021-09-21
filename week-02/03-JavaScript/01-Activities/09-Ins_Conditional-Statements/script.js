@@ -7,11 +7,15 @@ var lunchBill = 11;
 
 if (hungerLevel >= 50) {
   console.log("Hungry!");
+} else if(hungerLevel===50){
+  console.log("Meh")
+} else {
+  console.log("Not Hungry!")
 }
 
 // Evaluates to false so nothing is logged
-if (hungerLevel < 50) {
-  console.log("Hungry!");
+if (hungerLevel <= 50) {
+  console.log("NOT Hungry!");
 }
 
 // Else statement 

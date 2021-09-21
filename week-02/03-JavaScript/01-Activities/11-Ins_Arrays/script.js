@@ -1,10 +1,14 @@
 // So far, we have been storing one piece of data in variables
-var name = "Andre";
-var pets = 3; 
-var isStudent = true;
+var name = "Joe";
+var pets = 2; 
+var isStudent = false;
 
 // To store groups of data in a single variable, we use arrays
-var names = ["Andre", "Karl", "Rashida", "Olivia"];
+var names = [
+    "Joe", 
+    "Brett", 
+    "Jandy", 
+    "Louis"];
 
 // The entire array can be accessed by using the array's name 
 console.log(names);
@@ -20,10 +24,11 @@ console.log(names[0]);
 console.log(names[3]);
 
 //Replaces "Olivia" with "Carter"
-names[3] = "Carter"; 
+names[3] = "Big Lou"; 
 
 // Logs "Carter"
 console.log(names[3]);
 
 // We use the array's length property to determine how many elements are in the array
+var namesLength = names.length
 console.log(names.length);

@@ -9,5 +9,5 @@ var zooAnimals = ["Bears", "Giraffes", "Penguins", "Meerkats"];
 
 //To determine how many times the loop should execute, we use the array's length
 for (var i = 0; i < zooAnimals.length; i++) { 
-    console.log("I am going to zoo to see " + zooAnimals[i] + ".");
+    console.log("I am going to the zoo to see the " + zooAnimals[i] + ".");
 }

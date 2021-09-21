@@ -1,6 +1,7 @@
 //Primitive data types include undefined, string, number and boolean
 //Undefined variables haven't been assigned values yet.
 var myUndefined;
+var myNull = null;
 
 // A string is a series of characters and is surrounded by quotes 
 var myStringWelcome = "Hello World"; 
